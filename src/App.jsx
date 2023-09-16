@@ -1,11 +1,12 @@
-function App() {
-  const hola = () => {};
+import React from "react";
+import ActiveCampaignForm from "./MiComponente"; // Asegúrate de ajustar la ruta correcta
 
+function App() {
   return (
-    <>
-      <div>Mi Pagina Web para registrar en activeCampaing</div>
-      <button onClick={hola}>hello world</button>
-    </>
+    <div className="App">
+      <ActiveCampaignForm />
+      {/* Otros componentes y contenido de tu aplicación */}
+    </div>
   );
 }
 
